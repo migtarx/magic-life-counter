@@ -48,6 +48,6 @@ function getLifeCounters(){
 }
 
 setInterval(function(){
-    document.getElementById('player').innerHTML = `Player ${player}`;
+    document.getElementById('player-switcher').innerHTML = `🔄 Player ${player}`;
     getLifeCounters()
 }, 100);
